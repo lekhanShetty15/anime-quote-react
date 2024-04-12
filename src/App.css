@@ -1,0 +1,128 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.main{
+  width: 100%;
+  background-color: #222831;
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  flex-direction: column;
+  padding: 0px 50px 50px 50px;
+  
+}
+
+.main-title{
+  color: #FD7014;
+  font-size: 70px;
+  font-weight: 700;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+}
+span{
+  color: white;
+}
+.inner-main{
+  width: 60%;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.quote{
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 20px;
+ background-color: #FD7014;
+ box-shadow: 0px 2px 5px rgb(129, 129, 129);
+
+}
+.anime{
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 20px;
+  background-color: #FD7014;
+  box-shadow: 0px 2px 5px rgb(129, 129, 129);
+
+
+}
+.character{
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 20px;
+  background-color: #FD7014;
+  box-shadow: 0px 2px 5px rgb(129, 129, 129);
+}
+
+.text-quote{
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+
+}
+.anime-name{
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+
+}
+.char-name{
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+
+}
+
+.btn{
+  /* margin-top: 30px; */
+  border: 2px solid #ff6600;
+  width: 40%;
+  height: 20%;
+  border-radius: 15px;
+  background-color: white;
+  /* border: none; */
+  color: #FD7014;
+  font-size: 30px;
+  font-weight: 800;
+  word-spacing: 5px;
+  box-shadow: 0px 4px 5px rgba(253, 112, 20, 1);
+  cursor: pointer;
+  padding: 5px;
+}
+
+.btn:active{
+  transform: scale(0.98);
+  transition: .1s;
+}
+.last{
+  color: black;
+  font-size: 14px;
+}
+
+.heading{
+  font-weight: 700;
+}
+.last-heading{
+  color: #FD7014;
+}
